@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tableau Horizontal – Formation IA</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 20px;
+    color: #222;
+}
+h1 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 20px;
+}
+.table-container {
+    overflow-x: auto; /* permet le scroll horizontal si trop large */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: max-content; /* s’adapte au contenu pour tout sur une ligne */
+    min-width: 100%;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: center;
+    white-space: nowrap;
+}
+th {
+    background-color: #f2f2f2;
+}
+input[type=number] {
+    width: 50px;
+    text-align: center;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #0066cc;
+}
+</style>
+</head>
+<body>
+
+<h1>Tableau d'évaluation – Formation IA</h1>
+
+<div class="table-container">
+<table id="table-horizontal">
+<thead>
+<tr>
+<th>Nom du participant</th>
+<th>Présence (5)</th>
+<th>Réaction (5)</th>
+<th>Compréhension (5)</th>
+<th>Motivation (5)</th>
+<th>Total /20</th>
+<th>Pourcentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bertino Djoubissie</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Dona Julien Ahonou</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Dossou Dossou</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Gandotor Crépin</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Jefferson Riguelds Pretenvil</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>K. Kamaldine</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Moumouni Farhan</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Ornel Monteiro</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr>
+<td>Zossou Mathieu</td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td><input type="number" min="0" max="5"></td>
+<td class="total">0</td>
+<td class="percent">0%</td>
+</tr>
+<tr><td>Participant 10</td><td><input type="number"></td><td><input type="number"></td><td><input type="number"></td><td><input type="number"></td><td class="total">0</td><td class="percent">0%</td></tr>
+<tr><td>Participant 11</td><td><input type="number"></td><td><input type="number"></td><td><input type="number"></td><td><input type="number"></td><td class="total">0</td><td class="percent">0%</td></tr>
+<tr><td>Participant 12</td><td><input type="number"></td><td><input type="number"></td><td><input type="number"></td><td><input type="number"></td><td class="total">0</td><td class="percent">0%</td></tr>
+
+</tbody>
+</table>
+</div>
+
+<center>
+<button onclick="calculer()">Calculer Totaux et Pourcentages</button>
+</center>
+
+<script>
+function calculer(){
+let rows=document.querySelectorAll("#table-horizontal tbody tr");
+rows.forEach(row=>{
+    let inputs=row.querySelectorAll("input");
+    let total=0;
+    inputs.forEach(i=>{ total+=Number(i.value); });
+    row.querySelector(".total").innerText=total;
+    row.querySelector(".percent").innerText=((total/20)*100).toFixed(1)+"%";
+});
+}
+</script>
+
+</body>
+      </html>
